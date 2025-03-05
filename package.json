@@ -5,11 +5,11 @@
   "homepage": "https://sudo-paoo.github.io/math-game/",
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -b main -d build"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.1.6",
